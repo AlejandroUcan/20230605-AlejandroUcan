@@ -1,0 +1,29 @@
+
+  545  mkdir 20230605-AlejandroUcan
+  546  cd 20230605-AlejandroUcan/
+  547  ls
+  548  git init
+  549  touch comandos.txt main.js index.html
+  550  git status
+  551  git add .
+  552  git commit -m "commit 01 de AlejandroUcan"
+  553  git branch -M main
+  554  git remote add origin https://github.com/AlejandroUcan/20230605-AlejandroUcan.git
+  555  git push -u origin main
+  556  git checkout -b feature
+  557  mkdir Hardware Software SeguridadInformatica
+  558  touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+  559  ls -R
+  560  git push origin feature
+  561  git status
+  562  git branch
+  563  git add .
+  564  git commit -m "commit 02 de AlejandroUcan"
+  565  git push origin feature
+  566  git checkout main
+  567  mv main.js resumenHardware.txt
+  568  mv index.html resumenSoftware.txt
+  569  ls -R
+  570  nano resumenSoftware.txt
+  571  nano resumenHardware.txt
+  572  history > comandos.txt

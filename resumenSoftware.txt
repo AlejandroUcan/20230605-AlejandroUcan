@@ -1,0 +1,3 @@
+Git
+Visual Studio Code
+Figma
